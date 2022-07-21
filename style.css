@@ -1,0 +1,25 @@
+.tablo{
+    width: 600px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 300px 650px;
+    background-color: brown;
+}
+.inputs{
+    padding: 50px 100px;
+}
+.inputs label{
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+.inputs input{
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 5px;
+      border: none;
+      border-radius: 20px;
+      background: #d0dfe8;
+}
+.submit:hover{
+    background-color: brown;
+}
