@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <script src="index.js"></script>
+    <script>
+        function yazi(){
+            var input=document.getElementsByName('name').value;
+            alert(input) //fonksiyon istediğim gibi çalışmıyor
+                }
+    </script>
 </head>
 <body>
-    <div class="tablo">
+    <div class="tablo"> 
             <form class="inputs">
-                <label for="fname">İsim Soyisim:</label><br>
-                <input type="text" placeholder="İsim Soyisim" id="fname" name="fname"><br>
-                <label for="tnumber">Telefon No:</label><br>
-                <input type="number" placeholder="Telefon No" id="fname" name="fname"><br><br>
-                <input style="width: 430px;" class="submit" type="submit" value="Giriş" id="buton" >
-              </form>
+                <label>İsim Soyisim:</label><br>
+                <input type="text" placeholder="İsim Soyisim" id="fname" name="name"><br>
+                <label>Telefon No:</label><br>
+                <input type="text" placeholder="Telefon No" id="fnumber" name="number"><br><br>
+                <button class="buton" id="girisButon"   type="submit" onclick="yazi()">Giriş</button>
+                <button class="buton" id="kayitbuton"   type="submit">Kayıt Ol</button>
+          </form>
     </div>
     
 </body>

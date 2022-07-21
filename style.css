@@ -13,12 +13,23 @@
     font-size: 20px;
 }
 .inputs input{
-      width: 100%;
+      width: 370px;
       padding: 15px;
       margin-bottom: 5px;
       border: none;
       border-radius: 20px;
       background: #d0dfe8;
+}
+.buton{
+    width: 196px;
+    padding: 15px;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+}
+.buton:hover{
+    background-color: chocolate;
 }
 .submit:hover{
     background-color: brown;
